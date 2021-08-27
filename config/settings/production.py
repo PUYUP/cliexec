@@ -58,6 +58,7 @@ CSRF_USE_SESSIONS = False
 CSRF_COOKIE_HTTPONLY = False
 CSRF_TRUSTED_ORIGINS = [
     '.cliexec.com',
+    'https://cliexec-com.web.app',
 ]
 
 
@@ -67,7 +68,8 @@ CSRF_TRUSTED_ORIGINS = [
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-    'https://cliexec.com'
+    'https://cliexec.com',
+    'https://cliexec-com.web.app'
 ]
 
 
