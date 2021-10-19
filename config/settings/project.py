@@ -3,6 +3,7 @@ from corsheaders.defaults import default_headers
 from .base import *
 
 
+PROJECT_NAME = 'CLI Exec'
 PROJECT_APPS = [
     'channels',
     'corsheaders',
